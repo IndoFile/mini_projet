@@ -1,0 +1,112 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	box-sizing: border-box;
+
+}
+
+header{
+	width: 100%;
+	height:60px;
+	background-color:black;
+    border-bottom: 2px dashed white;
+	display:block;
+	z-index: 100000;
+	text-align: center;
+	box-shadow: 0px 10px 8px #cecece;
+}
+#icon{
+	position: absolute;
+	padding: 0.1%;
+	margin-left: 42%;
+	margin-right: 42%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	font-family: 'Roboto Mono', monospace;
+	color:white;
+	border:3px dotted white;
+	border-radius: 7px;
+	background-color: black;
+
+}
+h2:hover{
+  cursor: pointer;
+
+}
+
+h2 span{
+	color: red;
+	background-color: black;
+}
+
+
+#imgpro{
+	width: 14%;
+	height: auto;
+	margin-left: 3%;
+	margin-top: 1%;
+	border-radius: 123px;
+	border: 2px gray dashed;
+	display: inline;
+
+}
+.id{
+	display: inline;
+	position: absolute;
+	margin-top:5% ;
+	margin-left: 5%;
+	font-size: 26px;
+	font-family: 'Red Hat Display', sans-serif;;
+}
+
+h1{	text-shadow: 4px 4px #c1c1c1;
+}
+span.name{
+	color: red;
+}
+hr {
+	border:none;
+	height: 20px;
+	   width: 75%;
+	  height: 50px;
+	  margin-top: 0;
+	  border-bottom: 1px solid #1f1209;
+	  box-shadow: 0 20px 20px -20px #333;
+	  margin: -26px auto 72px; 
+  }
+  .profile{
+	background: #F9F9F9;
+	border-left: 10px solid #CCC;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	font-family: monospace;
+	font-size: 18px;
+  }
+.infos{
+	margin-left:12% ;
+	margin-right:12% ;
+}
+.titles{
+	font-size: 30px;
+}
+.lists{display: block;}
+ul{
+	list-style: none;
+	display: inline-block;
+	
+}
+.groupe2{
+	margin-left: 32%;
+}
+.groupe3{
+	margin-left: 39%;
+}
+li{
+	background: #F9F9F9;
+	border-left: 10px solid #CCC;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	font-family: monospace;
+	font-size: 18px;
+}
